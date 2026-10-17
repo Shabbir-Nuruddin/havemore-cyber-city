@@ -1,0 +1,108 @@
+import "@fontsource/alfa-slab-one/400.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Havemore",
+  sub: { en: "Butter chicken & North Indian · DLF Cyber City", hi: "बटर चिकन और नॉर्थ इंडियन · डीएलएफ साइबर सिटी" },
+  banner: { en: "Pandara Road's Havemore, now at Cyber City", hi: "पंडारा रोड वाला हैवमोर, अब साइबर सिटी में" },
+  phone: "919898740606",
+  phoneDisplay: "+91 98987 40606",
+  lat: 28.4933346,
+  lon: 77.0883859,
+  hours: [[12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5]],
+  theme: {
+    dark: false,
+    bg: "#ffffff",
+    bg2: "#f5f3f2",
+    panel: "#ffffff",
+    ink: "#141111",
+    ink2: "#4d4646",
+    ink3: "#878080",
+    line: "#e6e1df",
+    accent: "#9b1b1b",
+    onAccent: "#ffffff",
+    display: "Alfa Slab One",
+    weight: 400,
+    upper: false,
+  },
+  scene: "feast",
+  align: "left",
+  hero: {
+    title: [
+      { en: "Butter chicken,", hi: "बटर चिकन," },
+      { en: "worth the hype.", hi: "जितनी तारीफ़, उतना ही लाजवाब।" },
+    ],
+    proof: {
+      en: "4.9 on Google from 3,443 reviews. Butter chicken, dal makhani, kakori kebab and a huge garlic naan, in DLF Cyber City.",
+      hi: "गूगल पर 3,443 रिव्यू से 4.9। बटर चिकन, दाल मखनी, काकोरी कबाब और बड़ा सा गार्लिक नान, डीएलएफ साइबर सिटी में।",
+    },
+    fallback: "/img/p11.jpg",
+    slides: ["/img/p11.jpg", "/img/p4.jpg", "/img/p9.jpg"],
+  },
+  marquee: ["Butter Chicken", "Garlic Naan", "Dal Makhani", "Kakori Kebab", "Lachha Paratha", "Chicken Malai Tikka", "Mutton Burra", "Dahi Kebab"],
+  dishes: {
+    title: { en: "What to order, in guests' words", hi: "क्या मंगाएं, मेहमानों के शब्दों में" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "list",
+    items: [
+      { name: { en: "Butter Chicken", hi: "बटर चिकन" }, quote: "I have eaten butter chicken at almost all the famous restaurants in Delhi but I must say that Havemore is probably the best or equally best.", img: "/img/p11.jpg" },
+      { name: { en: "Garlic Naan & Dal Makhani", hi: "गार्लिक नान और दाल मखनी" }, quote: "Do try the butter chicken and the amazing huge garlic naan along with that dal makhani is amazing too" },
+      { name: { en: "Kakori Kebab", hi: "काकोरी कबाब" }, quote: "The kakori kebab was just superb, perfect blend of spices and it just melted in the mouth.", img: "/img/p12.jpg" },
+      { name: { en: "Lachha Paratha", hi: "लच्छा पराठा" }, quote: "Amazing butter chicken. But what’s even more amazing is the Lacha Parantha" },
+      { name: { en: "Malai Tikka & Stuffed Mushrooms", hi: "मलाई टिक्का और स्टफ़्ड मशरूम" }, quote: "The highlights were chicken malai tikka and stuffed mushrooms." },
+    ],
+  },
+  gallery: { title: { en: "", hi: "" }, layout: "strip", photos: [] },
+  feature: {
+    kind: "hosts",
+    title: { en: "Guests remember the team by name", hi: "मेहमान टीम को नाम से याद रखते हैं" },
+    body: { en: "Names come straight from the reviews.", hi: "नाम सीधे रिव्यू से लिए गए हैं।" },
+    img: "/img/p13.jpg",
+    hosts: [
+      { name: "SHIVA, ASHISH & NEHA", quote: "Exceptionally good food and service. Havemore lives up to its name every time. Thank you Shiva, Ashish, neha for their prompt and kind service." },
+      { name: "GAJJU, ANMOL & BORIS", quote: "Gajju Anmol and Boris served us the yummiest butter chicken and malai chaap." },
+      { name: "SHIVA, MANOJ, NEHA & ASHISH", quote: "Shiva, Manoj, Neha and Ashish were very very helpful and kind. We had a very nice time - great food and exceptional service" },
+      { name: "FROM PANDARA ROAD", quote: "Havemore in Pandara road has always been my favourite, but was difficult to travel everytime the urge hit. So, I was overjoyed to discover this place close to my home." },
+    ],
+  },
+  reviews: {
+    title: { en: "3,251 of 3,443 reviews are five stars", hi: "3,443 में से 3,251 रिव्यू पांच स्टार" },
+    rating: 4.9,
+    dist: [3251, 117, 28, 9, 38],
+    quotes: [
+      { quote: "Butter chicken worth the hype Amazing food Amazing staff", stars: 5 },
+      { quote: "Exceptional experience with delicious food. Staff was very active and helpful.", stars: 5 },
+      { quote: "PS: try their garlic naan, butter chicken and chicken botty kebab if you are confused ;)", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "DLF Cyber City, Cyber Hub", hi: "डीएलएफ साइबर सिटी, साइबर हब" },
+    img: "/img/p1.jpg",
+    alt: "Havemore storefront at DLF Cyber City",
+    address: { en: "UGF, Building 1 A, 10 C, DLF Cyber City, Gurugram 122002", hi: "यूजीएफ, बिल्डिंग 1 ए, 10 सी, डीएलएफ साइबर सिटी, गुरुग्राम 122002" },
+    note: { en: "Lunch and dinner, every day.", hi: "हर दिन लंच और डिनर।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#b8461c", foam: "#e08a4a", thick: 2.2, hot: true, butter: true },
+  story: [
+    { kicker: { en: "The butter chicken", hi: "बटर चिकन" }, title: { en: "Probably the best in Delhi.", hi: "शायद दिल्ली में सबसे बढ़िया।" }, quote: "I have eaten butter chicken at almost all the famous restaurants in Delhi but I must say that Havemore is probably the best or equally best." },
+    { kicker: { en: "The naan", hi: "नान" }, title: { en: "Huge, and made for dal makhani.", hi: "बड़ा सा, दाल मखनी के साथ।" }, quote: "Do try the butter chicken and the amazing huge garlic naan along with that dal makhani is amazing too" },
+    { kicker: { en: "The kebab", hi: "कबाब" }, title: { en: "Kakori that melts.", hi: "मुंह में घुलता काकोरी।" }, quote: "The kakori kebab was just superb, perfect blend of spices and it just melted in the mouth." },
+  ],
+  build: {
+    title: { en: "Book a table in a few taps", hi: "कुछ टैप में टेबल बुक कीजिए" },
+    body: { en: "Pick the occasion, how many and when. It goes to WhatsApp exactly as you see it.", hi: "मौका, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Occasion", hi: "मौका" }, options: [
+      { name: { en: "Family dinner", hi: "फ़ैमिली डिनर" } },
+      { name: { en: "Team lunch", hi: "टीम लंच" } },
+      { name: { en: "Celebration", hi: "सेलिब्रेशन" } },
+    ] },
+    people: true,
+    when: true,
+    hello: { en: "Hi Havemore, I'd like to book a table:", hi: "नमस्ते हैवमोर, मुझे टेबल बुक करनी है:" },
+  },
+  waHello: {
+    en: "Hi Havemore, I'd like to book a table. People: , date and time: ",
+    hi: "नमस्ते हैवमोर, मुझे टेबल बुक करनी है। लोग: , तारीख और समय: ",
+  },
+  order: ["build", "dishes", "feature", "reviews", "visit"],
+};
